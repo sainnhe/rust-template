@@ -4,7 +4,7 @@ This is a template repository for rust projects. Edit `./Cargo.toml` to get star
 
 ## Setup
 
-Execute the following commands to install git hooks:
+Execute the following commands to install [git hooks](https://git-scm.com/docs/githooks):
 
 1. `ln -s ../../githooks/pre-commit .git/hooks/`: Run checks and tests before committing.
 2. `ln -s ../../githooks/commit-msg .git/hooks/`: Check whether the commit message conforms to [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
