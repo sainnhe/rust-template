@@ -16,6 +16,7 @@ categories = [
   "development-tools::cargo-plugins",
 ] # See https://crates.io/category_slugs
 exclude = [
+  "/.gitignore",
   "/githooks",
   "/deny.toml",
 ] # Use exclude or include to explicitly specify which files are included when packaging a project to be published. You may run cargo package --list to verify which files will be included in the package.
