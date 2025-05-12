@@ -1,13 +1,13 @@
 ## Introduction
 
-This is a rust project template. Modify `./Cargo.toml` to get started.
+This is a template repository for rust projects. Edit `./Cargo.toml` to get started.
 
 ## Setup
 
 Execute the following commands to install git hooks:
 
-1. Pre-commit hook will run checks and tests before committing: `ln -s ../../githooks/pre-commit .git/hooks/`
-2. Commit-msg hook will check where commit message conforms to [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/): `ln -s ../../githooks/commit-msg .git/hooks/`
+1. `ln -s ../../githooks/pre-commit .git/hooks/`: Run checks and tests before committing.
+2. `ln -s ../../githooks/commit-msg .git/hooks/`: Check whether the commit message conforms to [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
 The pre-commit hook requires the following tools to be installed:
 
